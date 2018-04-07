@@ -1,11 +1,11 @@
 A) Hosting environment/ General tips
 
-*    Get a dedicated server or a VPS from a poster specialised in Magento.
-*    Host your site in the country (or at least on the continent) where your customers are. If you have customers worldwide, use a CDN (see tips below on CDN).
-*    Don't host files on your web server that you do not use, large or small.
-*    Goto MySQL Admin and select all the tables and repair and then optimize them. Small effect but good to check. Do things in MySQL break often? Get a new hoster.
-*    IF you have PHP6 or lower: Use a PHP accelerator like APC, ZendOptimizer+ or Xcache. No longer needed with PHP7.    
-*    APC – http://pecl.php.net/package/APC. Increased the APC.shm.size to something like 128 to allow more data to be cached by apc.
+* Get a dedicated server or a VPS from a poster specialised in Magento.
+* Host your site in the country (or at least on the continent) where your customers are. If you have customers worldwide, use a CDN (see tips below on CDN).
+* Don't host files on your web server that you do not use, large or small.
+* Goto MySQL Admin and select all the tables and repair and then optimize them. Small effect but good to check. Do things in MySQL break often? Get a new hoster.
+* IF you have PHP6 or lower: Use a PHP accelerator like APC, ZendOptimizer+ or Xcache. No longer needed with PHP7.    
+* APC – http://pecl.php.net/package/APC. Increased the APC.shm.size to something like 128 to allow more data to be cached by apc.
 *    Xcache – http://xcache.lighttpd.net/
 *    Only install necessary database modules.
 *    Swap Apache for NginX or Litespeed.
